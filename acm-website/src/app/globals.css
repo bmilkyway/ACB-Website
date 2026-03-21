@@ -24,3 +24,20 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar-blur {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+@media (max-width: 767px) {
+  .navbar-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-mobile {
+    display: none !important;
+  }
+}
